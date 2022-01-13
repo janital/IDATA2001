@@ -1,0 +1,177 @@
+/**
+Styling of menu bar
+ */
+.menu-bar {
+    -fx-background-color: rgba(34, 34, 34, 0.99);
+}
+.menu-bar .label {
+    -fx-text-fill: #cacaca;
+}
+.menu-item .label {
+    -fx-text-fill: #242424;
+}
+
+#contentpane {
+    -fx-background-color: #2d2d2d;
+}
+/**
+Styling of combo-box
+ */
+#registrytitle{
+    -fx-text-fill: white;
+    -fx-font-size: 14pt;
+}
+
+/**
+Styling of tool bar
+ */
+.tool-bar {
+    -fx-background-color:  #2d2d2d;
+    -fx-border-color: rgba(34, 34, 34, 0.6);
+    -fx-border-width: 1pt;
+}
+
+/**
+Styling of buttons
+ */
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+/**
+Styling of the search bar
+ */
+#search-bar {
+    -fx-background-radius: 15;
+    -fx-background-color: #606060;
+    -fx-background-image: url("/Icons/searchicon.png");
+    -fx-background-size: 27 27;
+    -fx-background-position: right center;
+    -fx-background-repeat: no-repeat;
+    -fx-border-color: #5399fbfd;
+    -fx-border-width: 0.8pt;
+    -fx-border-radius: 15;
+}
+
+/**
+
+ */
+.table-view {
+    -fx-text-fill: #a9a9a9;
+    -fx-background-color: rgba(34, 34, 34, 0.6);
+    -fx-background-insets: 0, 0, 0, 0;
+}
+.table-view:focused {
+    -fx-background-color: rgba(34, 34, 34, 0.6);
+    -fx-background-insets: 0, 0, 0, 0;
+}
+.table-view .column-header{
+    -fx-background-color: #5399fbfd;
+    -fx-border-color: rgba(9, 23, 55, 0.99);
+    -fx-border-width: .1;
+
+}
+.table-view .filler {
+    -fx-background-color: #5399fbfd;
+}
+.table-view .column-header .label {
+    -fx-text-fill: #f7f9fbfd;
+}
+.table-row-cell {
+    -fx-text-background-color: white;
+}
+.table-row-cell:odd {
+    -fx-background-color: rgb(107, 107, 107);
+    -fx-table-cell-border-color: #454545;
+}
+.table-row-cell:even {
+    -fx-background-color: #606060;
+    -fx-table-cell-border-color: #454545;
+}
+.table-row-cell:selected,
+.table-row-cell:filled:selected {
+    -fx-background-color: rgba(22, 62, 133, 0.99);
+    -fx-table-cell-border-color: rgba(22, 62, 133, 0.99);
+    -fx-text-fill: lightgrey;
+    -fx-background-insets: 0, 0, 0, 0;
+}
+
+/*
+Styling of scroll-bar, made in mind of table-view
+ */
+.scroll-bar {
+    -fx-background-color: transparent;
+    -fx-font-size: 8pt;
+}
+.scroll-bar .track,
+.corner {
+    -fx-background-color: transparent;
+}
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow {
+    -fx-background-color: transparent;
+    -fx-background-size: 0;
+}
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+    -fx-background-size: 0;
+}
+.scroll-bar .thumb {
+    -fx-background-radius: 5pt;
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-color: rgba(83, 153, 251, 0.5);
+}
+.scroll-bar .thumb:hover,
+.scroll-bar .thumb:pressed {
+    -fx-background-radius: 5pt;
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-color: rgba(83, 153, 251, 0.99);
+}
+
+.dialog-pane {
+    -fx-background-color: rgba(34, 34, 34, 0.99);
+    -fx-border-color: #2d2d2d;
+    -fx-padding: 0;
+}
+.dialog-pane .text-field {
+    -fx-background-radius: 15;
+    -fx-background-color: #606060;
+    -fx-border-color: #5399fbfd;
+    -fx-border-width: 0.8pt;
+    -fx-border-radius: 15;
+    -fx-text-fill: lightgrey;
+}
+.dialog-pane .label {
+    -fx-text-fill: lightgrey;
+}
+.dialog-pane .button {
+    -fx-background-radius: 15;
+    -fx-background-color: #5399fbfd;
+    -fx-text-fill: white;
+}
+.dialog-pane .button:hover {
+    -fx-background-radius: 15;
+    -fx-background-color: rgba(57, 101, 164, 0.99);
+    -fx-text-fill: white;
+}
+.dialog-pane .button:pressed {
+    -fx-background-radius: 15;
+    -fx-background-color: #143058fd;
+    -fx-text-fill: white;
+}
+.dialog-pane:header .header-panel {
+    -fx-background-color: #2d2d2d;
+}
+.dialog-pane:header .header-panel .label {
+    -fx-text-fill: lightgrey;
+}
+
+.combo-box-base {
+    -fx-background-radius: 15;
+    -fx-background-color: #606060;
+    -fx-border-color: #5399fbfd;
+    -fx-border-width: 0.8pt;
+    -fx-border-radius: 15;
+}
